@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.phoneContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 100vh;
+}
+
+.containerSearchBar {
+    position: absolute;
+    right: 30%;
+    display: flex;
+    padding: 10px;
+
+}
+.containerSearchBar input {
+    border-radius: 8px 0px 0px 8px;
+    border: none;
+}
+.containerSearchBar button {
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+}
+.containerSearchBar button svg{
+    width: 20px;
+    height: 20px;
+}
+
+@media (max-width: 1000px) {
+    .phoneContainer {
+        margin-left: none;
+        margin-right: none;
+        width: 100%;
+    }
+    .containerSearchBar {
+        right: 0;
+    }
+}
+
+.container {
+    background-image: url('../img/mountain.png');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.topSection {
+    /* position: absolute; */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.bottomSection {
+    width: 100%;
+}
+
+.containerDates {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+}
+
+
+
